@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -31,9 +31,9 @@ video {
   max-width: 100%;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Resource style 
+Resource style
 
 -------------------------------- */
 /* Main Header */
@@ -217,12 +217,12 @@ Resource style
 
 .cd-hero__slide:nth-of-type(2) {
   background-color: #3d4952;
-  background-image: url('../assets/tech-1-mobile.jpg');
+  background-image: url(../assets/tech-1-mobile.jpg);
 }
 
 .cd-hero__slide:nth-of-type(3) {
   background-color: #586775;
-  background-image: url('../assets/tech-2-mobile.jpg');
+  background-image: url(../assets/tech-2-mobile.jpg);
 }
 
 .cd-hero__slide:nth-of-type(4) {
@@ -435,7 +435,7 @@ Resource style
     transform: translateX(0);
   }
   .cd-hero__slide--is-moving .cd-hero__content.cd-hero__content--half-width {
-    /* this is the slide moving outside the viewport 
+    /* this is the slide moving outside the viewport
     wait for the end of the transition on the <li> parent before set opacity to 0 and translate to 40px/-40px */
     -webkit-transition: opacity 0s 0.5s, -webkit-transform 0s 0.5s;
     transition: opacity 0s 0.5s, -webkit-transform 0s 0.5s;
@@ -489,7 +489,7 @@ Resource style
   .cd-hero__slide--is-moving .cd-hero__content--full-width h2,
   .cd-hero__slide--is-moving .cd-hero__content--full-width p,
   .cd-hero__slide--is-moving .cd-hero__content--full-width .cd-hero__btn {
-    /* this is the slide moving outside the viewport 
+    /* this is the slide moving outside the viewport
     wait for the end of the transition on the li parent before set translate to 100px/-100px */
     -webkit-transition: -webkit-transform 0s 0.5s;
     transition: -webkit-transform 0s 0.5s;
